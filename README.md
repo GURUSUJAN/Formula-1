@@ -1,0 +1,1 @@
+Formula 1 is the highest class of international auto racing for single-seater formula racing cars sanctioned by the Fédération Internationale de l'Automobile (FIA). It's one of the most popular forms of racing in the world, known for its speed, cutting-edge technology, and glamour. Races, known as Grands Prix, take place on circuits around the world.
