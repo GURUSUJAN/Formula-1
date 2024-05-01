@@ -1,0 +1,35 @@
+body {
+  font-family:monospace;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-card,
+.driver-card,
+.race-card,
+.news-card {
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.team-card img,
+.driver-card img,
+.race-card img,
+.news-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.team-card-content,
+.driver-card-content,
+.race-card-content,
+.news-card-content {
+  padding: 20px;
+}
