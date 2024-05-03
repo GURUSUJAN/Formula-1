@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Track Details</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Exo+2:wght@100..900&display=swap" rel="stylesheet">
+  <style>
+    /* Additional styles can be added here */
+    li {
+        margin: 1rem 0rem 1rem 0rem;
+    }
+    
+    strong {
+        color: grey;
+    }
+  </style>
+</head>
+<body class="bg-gray-100" style="font-family: 'Exo 2', sans-serif;">
+  <div class="container mx-auto px-4 py-8" style="background-color: white;">
+    <div class="max-w-3xl mx-auto bg-white rounded-lg overflow-hidden shadow-md" style="background-color: black; color: white; box-shadow: 0 4px 6px grey, 0 1px 3px grey;">
+      <div class="text-center">
+        <img id="trackImage" src="https://media.formula1.com/image/upload/f_auto/q_auto/v1677244985/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Bahrain_Circuit.png.transform/8col-retina/image.png" alt="Bahrain GP" class="mx-auto w-full h-auto" style="background-color: white;">
+      </div>
+      <div class="p-4">
+        <h2 id="trackName" class="text-2xl font-bold mb-4 text-center">Bahrain International Circuit</h2>
+        <div id="trackDetails">
+          <p><strong>First Grand Prix:</strong>2004</p>
+          <p><strong>Laps:</strong> 57</p>
+          <p><strong>Circuit Length:</strong> 5.412 km</p>
+          <p><strong>Race Distance:</strong> 308.238 km</p>
+          <p><strong>Lap Record:</strong> 1:31.447 (Pedro de la Rosa, McLaren, 2005)</p>
+        </div>
+        <div id="briefInfo" class="mt-4">
+          <h3 class="text-lg font-semibold mb-2">Brief Info:</h3>
+          <ul>
+            <li><strong>Location:</strong> Sakhir, Bahrain</li>
+            <li><strong>Constructed:</strong> Ground broken in December 2002, designed by Hermann Tilke</li>
+            <li><strong>Debut:</strong> Inaugural race in 2004, won by Michael Schumacher</li>
+            <li><strong>Circuit Highlights:</strong> Exciting races, overtaking opportunities, and technical challenges</li>
+            <li><strong>Attractions:</strong> Stunning resorts, beautiful beaches, and the Bahrain International Karting Circuit</li>
+            <li><strong>Best Viewing Spots:</strong> 
+              <ol>
+                <li>Batelco Grandstand: Offers a great view of cars charging into Turn 8, hammering through 9 and 10, and then passing you on the run down to the short-apex Turn 11.</li>
+                <li>Outside Grandstand Turns 1 and 2: Allows you to watch overtaking aplenty on either track layout.</li>
+              </ol>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
