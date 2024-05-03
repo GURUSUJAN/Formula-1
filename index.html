@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formula 1 The Pinnacle of Motorsport</title>
+        <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Exo+2:wght@100..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="Photos/Favicons/HomePage.ico" type="image/x-icon">
+    </head>
+        <body class="bg-gray-100 font-sans">
+
+            <!-- Header -->
+            <header class="bg-white text-white text-center py-4">
+                <div class="container mx-auto">
+                    <a href="https://www.formula1.com/en.html" target="_blank"><img src="Photos/logo-f1.png" alt="Formula 1" class="mx-auto mb-4" style="max-width: 200px;"></a>
+                    <h1 class="text-3xl font-semibold center" style="background-color: white; color: red; font-family: 'Exo 2', sans-serif;">Formula 1</h1>
+                </div>
+                <div class="container mx-auto flex justify-between items-center">
+                    <button id="toggleMenu" class="block md:hidden text-white focus:outline-none" aria-label="Toggle navigation">
+                        <span id="hamburger-icon">
+                        </span>
+                    </button>
+                </div>
+
+            </header>
+
+            <!-- Navigation -->
+            <nav class="bg-black text-white p-4 hidden md:block" id="navigation" style="font-family: 'Exo 2', sans-serif;">
+                <ul class="flex justify-around">
+                    <li><a href="#introduction">Introduction</a></li>
+                    <li><a href="#history">History</a></li>
+                    <li><a href="#teams">Teams</a></li>
+                    <li><a href="#drivers">Drivers</a></li>
+                    <li><a href="#technology">Technology</a></li>
+                    <li><a href="#Races">Races</a></li>
+                    <li><a href="#latest">Race Weekend</a></li>
+                </ul>
+            </nav>
+
+            <!-- Hamburger menu for smaller screens -->
+            <div class="md:hidden" id="mobileMenu" style="display: none;" style="font-family: 'Exo 2', sans-serif;">
+                <ul class="bg-gray-700 text-white p-4">
+                    <li><a href="#introduction">Introduction</a></li>
+                    <li><a href="#history">History</a></li>
+                    <li><a href="#teams">Teams</a></li>
+                    <li><a href="#drivers">Drivers</a></li>
+                    <li><a href="#technology">Technology</a></li>
+                    <li><a href="#races">Race Circuits</a></li>
+                    <li><a href="#latest">Race Weekend</a></li>
+                </ul>
+            </div>
+
+            <!-- Main Content -->
+            <main class="container mx-auto px-4 py-8" style="font-family: 'Exo 2', sans-serif;">
+
+                <!-- Introduction -->
+                <section id="introduction" class="py-4">
+                    <h2 class="text-2xl font-semibold">Introduction</h2>
+                    <p class="mt-2">What kind of sport values every millisecond, where cars whip around corners at 200 km/h, where drivers endure scorching heat and body-crushing G-forces? What kind of sport sees the fusion of human skill with cutting-edge technology, pushing the boundaries of speed and engineering? This is not just any sport;</p>
+                    <p style="color: red; text-align: center; font-size: larger;">This Is FORMULA 1</p>
+                </section>
+                
+
+                <!-- History -->
+                <section id="history" class="py-4">
+                    <h2 class="text-2xl font-semibold">History</h2>
+                    <p class="mt-2">Formula 1 racing began in 1950 when the FIA inaugurated the World Championship of Drivers. Some key moments in its history include:</p>
+                    <ul class="list-disc list-inside mt-2">
+                        <li>1950: The first Formula 1 World Championship race took place at Silverstone, United Kingdom.</li>
+                        <li>1958: Introduction of Constructors' Championship.</li>
+                        <li>1961: Introduction of the 1.5-liter engine formula.</li>
+                        <li>1977: Introduction of ground effect aerodynamics.</li>
+                        <li>1983: Introduction of turbocharged engines.</li>
+                        <li>2006: Introduction of V8 engines.</li>
+                        <li>2014: Introduction of V6 turbo hybrid engines.</li>
+                    </ul>
+                </section>
+
+                <!-- Teams and Constructors -->
+                <section id="teams" class="py-4">
+                    <h2 class="text-2xl font-semibold" style="margin: 2rem 0rem 2rem 0rem;">Teams and Constructors</h2>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+
+                        <!-- Mercedes -->
+                       <a href="./Teams_Info/Merc01/index.html" target="_blank">
+                            <div class="team-card bg-white" style="display: flex; flex-direction: column; align-items: center; padding: 1rem;">
+                                <img src="Photos/amg.avif" alt="Mercedes" style="width: 100%; max-width: 200px; height: auto; max-height: 150px; margin: 2rem 0rem 1rem 0rem;">
+                                <div class="team-card-content" style="color:black; padding: auto 0rem 3rem 0rem;">
+                                    <h3 class="text-xl font-semibold">Mercedes</h3>
+                                </div>
+                            </div>
+                       </a>
+                    
+                        <!-- Ferrari -->
+                        <a href="./Teams_Info/Ferrari/index.html" target="_blank">
+                            <div class="team-card bg-white" style="display: flex; flex-direction: column; align-items: center; padding: 1rem;">
+                                <img src="Photos/Ferrari.png" alt="Ferrari" style="width: 100%; max-width: 200px; height: auto; max-height: 150px; margin: 2rem 0rem 2rem 0rem;">
+                                <div class="team-card-content" style="color:black; padding: auto 0rem 3rem 0rem;">
+                                    <h3 class="text-xl font-semibold" style="color: red;">Ferrari</h3>
+                                </div>
+                            </div>
+                        </a>
+
+                        <!-- Red Bull Racing -->
+                        <a href="./Teams_Info/RedBull/index.html" target="_blank">
+                            <div class="team-card bg-white" style="display: flex; flex-direction: column; align-items: center; padding: 1rem;">
+                                <img src="Photos/RedBull.avif" alt="Red Bull Racing" style="width: 100%; max-width: 200px; height: auto; max-height: 150px; margin: 2rem 0rem 1rem 0rem;">
+                                <div class="team-card-content" style="color:black; padding: auto 0rem 3rem 0rem;">
+                                    <h3 class="text-xl font-semibold" style="color: rgb(52, 52, 203);">Red Bull Racing</h3>
+                                </div>
+                            </div>
+                        </a>
+
+                        <!-- McLaren -->
+                        <a href="./Teams_Info/Mclaren/index.html" target="_blank">
+                            <div class="team-card bg-white" style="display: flex; flex-direction: column; align-items: center; padding: 1rem;">
+                                <img src="Photos/Mclaren.avif" alt="McLaren" style="width: 100%; max-width: 200px; height: auto; max-height: 150px; margin: 2rem 0rem 1rem 0rem;">
+                                <div class="team-card-content" style="color:black; padding: auto 0rem 3rem 0rem;">
+                                    <h3 class="text-xl font-semibold" style="color: rgb(255, 166, 0);">McLaren</h3>
+                                </div>
+                            </div>
+                        </a>
+
+                        <!-- AstonMartin -->
+                        <a href="./Teams_Info/aston/index.html" target="_blank">
+                            <div class="team-card bg-white" style="display: flex; flex-direction: column; align-items: center; padding: 1rem;">
+                                <img src="Photos/Aston.avif" alt="Mercedes" style="width: 100%; max-width: 200px; height: auto; max-height: 150px; margin: 2rem 0rem 1.5rem 0rem;">
+                                <div class="team-card-content" style="color:black; padding: auto 0rem 2.5rem 0rem;">
+                                    <h3 class="text-xl font-semibold" style="color: green;">Aston Martin</h3>
+                                </div>
+                            </div>
+                        </a>
+                    
+                        <!-- Apline -->
+                        <a href="./Teams_Info/alpine/index.html" target="_blank">
+                            <div class="team-card bg-white" style="display: flex; flex-direction: column; align-items: center; padding: 1rem;">
+                                <img src="Photos/alpine.avif" alt="Ferrari" style="width: 100%; max-width: 200px; height: auto; max-height: 150px; margin: 2rem 0rem 1rem 0rem;">
+                                <div class="team-card-content" style="color:black; padding: auto 0rem 4rem 0rem;">
+                                    <h3 class="text-xl font-semibold" style="color: rgb(0, 0, 67);">Alpine</h3>
+                                </div>
+                            </div>
+                        </a>
+
+                        <!-- Williams  -->
+                        <a href="./Teams_Info/williams/index.html" target="_blank">
+                            <div class="team-card bg-white" style="display: flex; flex-direction: column; align-items: center; padding: 1rem;">
+                                <img src="Photos/williams.avif" alt="Red Bull Racing" style="width: 100%; max-width: 200px; height: auto; max-height: 150px; margin: 2rem 0rem 1rem 0rem;">
+                                <div class="team-card-content" style="color:black; padding: auto 0rem 3rem 0rem;">
+                                    <h3 class="text-xl font-semibold" style="color: rgb(19, 19, 212);">Williams Racing</h3>
+                                </div>
+                            </div>
+                        </a>
+
+                        <!-- Sauber -->
+                        <a href="./Teams_Info/sauber/index.html" target="_blank">
+                            <div class="team-card bg-white" style="display: flex; flex-direction: column; align-items: center; padding: 1rem;">
+                                <img src="Photos/stake.avif" alt="McLaren" style="width: 100%; max-width: 200px; height: auto; max-height: 150px; margin: 2rem 0rem 1rem 0rem;">
+                                <div class="team-card-content" style="color:black; padding: auto 0rem 3rem 0rem;">
+                                    <h3 class="text-xl font-semibold" style="color:#0FFF50;">Stake f1 Kick Sauber</h3>
+                                </div>
+                            </div>
+                        </a>
+
+                        <!-- RB  -->
+                        <a href="./Teams_Info/rb/index.html" target="_blank">
+                            <div class="team-card bg-white" style="display: flex; flex-direction: column; align-items: center; padding: 1rem;">
+                                <img src="Photos/rb.png" alt="Red Bull Racing" style="width: 100%; max-width: 200px; height: auto; max-height: 150px; margin: 2rem 0rem 1rem 0rem;">
+                                <div class="team-card-content" style="color:black; padding: auto 0rem 3rem 0rem;">
+                                    <h3 class="text-xl font-semibold" style="color: rgb(109, 109, 234);">Visa Cash App RB</h3>
+                                </div>
+                            </div>
+                        </a>
+
+                    <!-- Haas -->
+                    <a href="./Teams_Info/haas/index.html" target="_blank">
+                        <div class="team-card bg-white" style="display: flex; flex-direction: column; align-items: center; padding: 1rem;">
+                            <img src="Photos/haas.avif" alt="McLaren" style="width: 100%; max-width: 200px; height: auto; max-height: 150px; margin: 2rem 0rem 3rem 0rem;">
+                            <div class="team-card-content" style="color:black; padding: auto 0rem 3rem 0rem;">
+                                <h3 class="text-xl font-semibold" style="color: grey;">Haas</h3>
+                            </div>
+                        </div>
+                    </a>
+
+                    </div>
+                </section>
+
+                <!-- Drivers -->
+                <section id="drivers" class="py-4">
+                    <h2 class="text-2xl font-semibold" style="margin: 2rem 0rem 2rem 0rem;">Drivers</h2>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4">
+
+                        <!-- Lewis Hamilton -->
+                        <div class="driver-card bg-black" style="display: flex; flex-direction: column; align-items: center; padding: 1rem;">
+                            <img src="Drivers/lewham01.avif" alt="Lewis Hamilton" style="width: 100%; max-width: 200px; height: auto; max-height: 200px; margin: auto 0rem 3rem 0rem;">
+                            <div class="driver-card-content" style="color: #26D0CE;">
+                                <h3 class="text-xl font-semibold">Lewis HAMILTON</h3>
+                                <p>Team: Mercedes</p>
+                            </div>
+                        </div>
+
+                        <!-- Max Verstappen -->
+                        <div class="driver-card" style="display: flex; flex-direction: column; align-items: center; padding: 1rem; background-color: rgb(52, 52, 203);">
+                            <img src="Drivers/maxver01.avif" alt="Max Verstappen" style="width: 100%; max-width: 200px; height: auto; max-height: 200px; margin: auto 0rem 3rem 0rem;">
+                            <div class="driver-card-content" style="color: yellow;">
+                                <h3 class="text-xl font-semibold">Max VERSTAPPEN</h3>
+                                <p>Team: Red Bull Racing</p>
+                            </div>
+                        </div>
+
+                        <!-- Fernando Alonso -->
+                        <div class="driver-card bg-white" style="display: flex; flex-direction: column; align-items: center; padding: 1rem; background-color: green;">
+                            <img src="Drivers/feralo01.avif" alt="Fernando Alonso" style="width: 100%; max-width: 200px; height: auto; max-height: 200px; margin: auto 0rem 3rem 0rem;">
+                            <div class="driver-card-content" style="color: white;">
+                                <h3 class="text-xl font-semibold">Fernando ALONSO</h3>
+                                <p>Team: Aston Martin</p>
+                            </div>
+                        </div>
+
+                        <!-- Charles Leclerc -->
+                        <div class="driver-card bg-white" style="display: flex; flex-direction: column; align-items: center; padding: 1rem; background-color: red;">
+                            <img src="Drivers/chalec01.avif" alt="Charles Leclarc" style="width: 100%; max-width: 200px; height: auto; max-height: 200px; margin: auto 0rem 3rem 0rem;">
+                            <div class="driver-card-content" style="color: white;">
+                                <h3 class="text-xl font-semibold">Charles LECLARC</h3>
+                                <p>Team: Ferrari</p>
+                            </div>
+                        </div>
+
+                        <!-- Carlos Sainz -->
+                        <div class="driver-card bg-white" style="display: flex; flex-direction: column; align-items: center; padding: 1rem; background-color: red;">
+                        <img src="Drivers/carsai01.avif" alt="Carlos Sainz" style="width: 100%; max-width: 200px; height: auto; max-height: 200px; margin: auto 0rem 3rem 0rem;">
+                        <div class="driver-card-content" style="color: white;">
+                            <h3 class="text-xl font-semibold">Carlos SAINZ</h3>
+                            <p>Team: Ferrari</p>
+                        </div>
+                        </div>
+                    
+                        <!-- Daniel Ricciardo -->
+                        <div class="driver-card bg-white" style="display: flex; flex-direction: column; align-items: center; padding: 1rem;">
+                            <img src="Drivers/danric01.avif" alt="Daniel Ricciardo" style="width: 100%; max-width: 200px; height: auto; max-height: 200px; margin: auto 0rem 3rem 0rem;">
+                            <div class="driver-card-content" style="color: rgb(109, 109, 234);">
+                                <h3 class="text-xl font-semibold">Daniel RICCIARDO</h3>
+                                <p>Team: Visa Cash RB</p>
+                            </div>
+                        </div>
+
+                        <!-- Sergio Perez -->
+                        <div class="driver-card bg-white" style="display: flex; flex-direction: column; align-items: center; padding: 1rem; background-color: rgb(52, 52, 203);">
+                            <img src="Drivers/serper01.avif" alt="Sergio Perez" style="width: 100%; max-width: 200px; height: auto; max-height: 200px; margin: auto 0rem 3rem 0rem;">
+                            <div class="driver-card-content" style="color: yellow;">
+                                <h3 class="text-xl font-semibold">Sergio PEREZ</h3>
+                                <p>Team: Red Bull Racing</p>
+                            </div>
+                        </div>
+
+                        <!-- Lando Norris -->
+                        <div class="driver-card bg-white" style="display: flex; flex-direction: column; align-items: center; padding: 1rem; background-color: rgb(255, 166, 0);">
+                            <img src="Drivers/lannor01.avif" alt="Lando Norris" style="width: 100%; max-width: 200px; height: auto; max-height: 200px; margin: auto 0rem 3rem 0rem;">
+                            <div class="driver-card-content">
+                                <h3 class="text-xl font-semibold">Lando NORRIS</h3>
+                                <p>Team: McLaren</p>
+                            </div>
+                        </div>
+
+                        <!-- Geroge Russell -->
+                        <div class="driver-card bg-white" style="display: flex; flex-direction: column; align-items: center; padding: 1rem; background-color: black;">
+                        <img src="Drivers/georus01.avif" alt="Geroge Russell" style="width: 100%; max-width: 200px; height: auto; max-height: 200px; margin: auto 0rem 3rem 0rem;">
+                        <div class="driver-card-content" style="color: #26D0CE;">
+                            <h3 class="text-xl font-semibold">Geroge RUSSELL</h3>
+                            <p>Team: Mercedes</p>
+                        </div>
+                        </div>
+
+                        <!-- Alexander Albon -->
+                        <div class="driver-card bg-white" style="display: flex; flex-direction: column; align-items: center; padding: 1rem;">
+                            <img src="Drivers/alealb01.avif" alt="Alexander Albon" style="width: 100%; max-width: 200px; height: auto; max-height: 200px; margin: auto 0rem 3rem 0rem;">
+                            <div class="driver-card-content" style="color: rgb(19, 19, 212);">
+                                <h3 class="text-xl font-semibold">Alexander ALBON</h3>
+                                <p>Team: Williams Racing</p>
+                            </div>
+                        </div>
+
+                        <!-- Oscar Piastri -->
+                        <div class="driver-card bg-white" style="display: flex; flex-direction: column; align-items: center; padding: 1rem; background-color: rgb(255, 166, 0);">
+                            <img src="Drivers/oscpia01.avif" alt="Oscar Piastri" style="width: 100%; max-width: 200px; height: auto; max-height: 200px; margin: auto 0rem 3rem 0rem;">
+                            <div class="driver-card-content">
+                                <h3 class="text-xl font-semibold">Oscar PIASTRI</h3>
+                                <p>Team: McLaren</p>
+                            </div>
+                        </div>
+
+                        <!-- Lance Stroll -->
+                        <div class="driver-card bg-white" style="display: flex; flex-direction: column; align-items: center; padding: 1rem; background-color: green;">
+                            <img src="Drivers/lanstr01.avif" alt="Lance Stroll" style="width: 100%; max-width: 200px; height: auto; max-height: 200px; margin: auto 0rem 3rem 0rem;">
+                            <div class="driver-card-content" style="color: white;">
+                                <h3 class="text-xl font-semibold">Lance STROLL</h3>
+                                <p>Team: Aston Martin</p>
+                            </div>
+                        </div>
+
+                        <!-- Yuki Tsunoda -->
+                        <div class="driver-card bg-white" style="display: flex; flex-direction: column; align-items: center; padding: 1rem;">
+                        <img src="Drivers/yuktsu01.avif" alt="Yuki Tsunoda" style="width: 100%; max-width: 200px; height: auto; max-height: 200px; margin: auto 0rem 3rem 0rem;">
+                        <div class="driver-card-content" style="color: rgb(109, 109, 234);">
+                            <h3 class="text-xl font-semibold">Yuki TSUNODA</h3>
+                            <p>Team: Visa Cash RB</p>
+                        </div>
+                        </div>
+                    
+                    <!-- Nico Hulkenberg -->
+                    <div class="driver-card bg-white" style="display: flex; flex-direction: column; align-items: center; padding: 1rem; background-color: grey;">
+                        <img src="Drivers/nichul01.avif" alt="Nico Hulkenberg" style="width: 100%; max-width: 200px; height: auto; max-height: 200px; margin: auto 0rem 3rem 0rem;">
+                        <div class="driver-card-content">
+                            <h3 class="text-xl font-semibold">Nico HULKENBERG</h3>
+                            <p>Team: Haas</p>
+                        </div>
+                    </div>
+
+                    <!-- Kevin Magnussen -->
+                    <div class="driver-card bg-white" style="display: flex; flex-direction: column; align-items: center; padding: 1rem; background-color: grey;">
+                        <img src="Drivers/kevmag01.avif" alt="Kevin Magnussen" style="width: 100%; max-width: 200px; height: auto; max-height: 200px; margin: 0.5rem 0rem auto 0rem;">
+                        <div class="driver-card-content">
+                            <h3 class="text-xl font-semibold">Kevin MAGNUSSEN</h3>
+                            <p>Team: Haas</p>
+                        </div>
+                    </div>
+
+                    <!-- Esteban Ocan -->
+                    <div class="driver-card bg-white" style="display: flex; flex-direction: column; align-items: center; padding: 1rem; background-color: rgb(0, 0, 67);">
+                        <img src="Drivers/estoco01.avif" alt="Esteban Ocan" style="width: 100%; max-width: 200px; height: auto; max-height: 200px; margin: auto 0rem 3rem 0rem;">
+                        <div class="driver-card-content" style="color: whitesmoke;">
+                            <h3 class="text-xl font-semibold">Esteban OCAN</h3>
+                            <p>Team: Alpine</p>
+                        </div>
+                    </div>
+
+                    <!-- Zhou Guanyu -->
+                    <div class="driver-card bg-white" style="display: flex; flex-direction: column; align-items: center; padding: 1rem; background-color: #0FFF50;">
+                        <img src="Drivers/guazho01.avif" alt="Zhou Guanyu" style="width: 100%; max-width: 200px; height: auto; max-height: 200px; margin: auto 0rem 3rem 0rem;">
+                        <div class="driver-card-content">
+                            <h3 class="text-xl font-semibold">Zhou GUANYU</h3>
+                            <p>Team: Stake F1 Kick Sauber</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Pierre Gasly -->
+                    <div class="driver-card bg-white" style="display: flex; flex-direction: column; align-items: center; padding: 1rem; background-color: rgb(0, 0, 67);">
+                        <img src="Drivers/piegas01.avif" alt="Pierre Gasly" style="width: 100%; max-width: 200px; height: auto; max-height: 200px; margin: auto 0rem 3rem 0rem;">
+                        <div class="driver-card-content" style="color: whitesmoke;">
+                            <h3 class="text-xl font-semibold">Pierre GASLY</h3>
+                            <p>Team: Alpine</p>
+                        </div>
+                    </div>
+
+                    <!-- Valtteri Bottas -->
+                    <div class="driver-card bg-white" style="display: flex; flex-direction: column; align-items: center; padding: 1rem; background-color: #0FFF50;">
+                        <img src="Drivers/valbot01.avif" alt="Valtteri Bottas" style="width: 100%; max-width: 200px; height: auto; max-height: 200px; margin: auto 0rem 3rem 0rem;">
+                        <div class="driver-card-content">
+                            <h3 class="text-xl font-semibold">Valtteri BOTTAS</h3>
+                            <p>Team: Stake F1 Kick Sauber</p>
+                        </div>
+                    </div>
+
+                    <!-- Logan Sargent -->
+                    <div class="driver-card bg-white" style="display: flex; flex-direction: column; align-items: center; padding: 1rem;">
+                        <img src="Drivers/logsar01.avif" alt="Logan Sargent" style="width: 100%; max-width: 200px; height: auto; max-height: 200px; margin: auto 0rem 3rem 0rem;">
+                        <div class="driver-card-content" style="color: rgb(19, 19, 212);">
+                            <h3 class="text-xl font-semibold">Logan SARGENT</h3>
+                            <p>Team: Williams Racing</p>
+                    </div>
+                </div>
+                </div>
+                </section>
+
+                <!-- Technology -->
+                <section id="technology" class="py-4">
+                    <h2 class="text-2xl font-semibold">Technology</h2>
+                    <p class="mt-2">Formula 1 is at the forefront of automotive technology. Some key technological advancements include:</p>
+                    <ul class="list-disc list-inside mt-2">
+                        <li>Hybrid Power Units</li>
+                        <li>Energy Recovery Systems</li>
+                        <li>Aerodynamics</li>
+                        <li>Advanced Materials</li>
+                        <li>Data Analysis and Telemetry</li>
+                    </ul>
+                </section>
+
+                <!-- Races -->
+                <div id="Races" style="text-align: center;">
+                    <a href="./Races/index.html" style="font-size: larger; color: crimson;" target="_blank" id="li">Clik here to Know More about Race Track</a>
+                </div>
+                <!-- Races and Grand Prix -->
+
+                <!-- Latest News -->
+            </main>
+
+            <!-- Footer -->
+            <footer class="bg-red-600 text-white text-center py-4" style="font-family: 'Exo 2', sans-serif;">
+                <p style="display: inline-block;">&copy; 2024 <span style="color: white;">Formula 1</span>.</p>
+                <button onclick="scrollToTop()" class="float-right" style="display: inline-block; margin: 0rem 2rem 0rem auto;">Go to Top &#8679;</button>
+            </footer>
+            
+            <script>
+                    // Dynamic coloring for race cards based on whether the race has happened or not
+                    const today = new Date();
+                    const races = [
+                        { id: "Monaco-Grand-Prix", date: new Date("2024-01-26") },
+                        { id: "Silverstone-Circuit", date: new Date("2024-07-14") },
+                        { id: "Circuit-de-Spa-Francorchamps", date: new Date("2024-05-24") },
+                        { id: "Suzuka-Circuit", date: new Date("2024-10-13") }
+                    ];
+
+                    races.forEach(race => {
+                        const raceCard = document.getElementById(race.id);
+                        if (race.date < today) {
+                            raceCard.classList.remove("bg-white");
+                            raceCard.classList.add("bg-red-200");
+                        } 
+                        else {
+                            raceCard.classList.remove("bg-white");
+                            raceCard.classList.add("bg-green-200");
+                        }
+                    });
+
+                    function scrollToTop() {
+                        window.scrollTo({ top: 0, behavior: 'smooth' });
+                    }
+
+            </script>
+        </body>
+</html>

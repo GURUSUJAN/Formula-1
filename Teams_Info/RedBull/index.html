@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Oracle Red Bull Racing</title>
+        <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Exo+2:wght@100..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="shortcut icon" href="redbull.ico" type="image/x-icon">
+</head>
+<body class="font-sans" style="background-color: rgb(52, 52, 203); font-family: 'Exo 2', sans-serif;">
+
+    <!-- Header -->
+    <header class="bg-black text-white text-center py-4" style="background-color: white;">
+        <div class="container mx-auto" >
+            <img src="https://gsrformula1.netlify.app/Photos/RedBull.avif" alt="Team Logo" class="mx-auto mb-4" style="max-width: 200px;" style="background-color: white;">
+            <h1 class="text-3xl font-semibold text-white-900" style="color: rgb(52, 52, 203);">Oracle Red Bull Racing</h1>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-4 py-8">
+
+        <!-- Team Information -->
+        <section id="team-info" class="py-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Left Side -->
+                <div>
+                    <h2 class="text-2xl font-semibold mb-4" style="color: yellow;">Team Information</h2>
+                    <div class="bg-white rounded-lg shadow-md p-6">
+                        <h3 class="text-xl font-semibold">Full Name</h3>
+                        <p>Oracle Red Bull Racing</p>
+                        <h3 class="text-xl font-semibold mt-4">Location</h3>
+                        <p>Milton Keynes, United Kingdom</p>
+                        <h3 class="text-xl font-semibold mt-4">Chassis</h3>
+                        <p>W15</p>
+                        <h3 class="text-xl font-semibold mt-4">Principal</h3>
+                        <p>Christian Horner</p>
+                        <h3 class="text-xl font-semibold mt-4">Technical Director</h3>
+                        <p>Pierre Waché</p>
+                        <h3 class="text-xl font-semibold mt-4">Power Unit</h3>
+                        <p>Honda RBPT</p>
+                        <h3 class="text-xl font-semibold mt-4">First Team Entry</h3>
+                        <p>1997</p>
+                        <h3 class="text-xl font-semibold mt-4">World Championships</h3>
+                        <p>6</p>
+                        <h3 class="text-xl font-semibold mt-4">Highest Race Finish</h3>
+                        <p>1 (x117)</p>
+                        <h3 class="text-xl font-semibold mt-4">Pole Positions</h3>
+                        <p>x100</p>
+                        <h3 class="text-xl font-semibold mt-4">Fastest Laps</h3>
+                        <p>97</p>
+                    </div>
+                </div>
+                <!-- Right Side -->
+                <div>
+                    <h2 class="text-2xl font-semibold mb-4" style="color: yellow;">Drivers</h2>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
+                        <!-- Driver 1 -->
+                        <div class="driver-card bg-white rounded-lg shadow-md transition duration-300 transform hover:scale-105" id="card">
+                            <img src="https://gsrformula1.netlify.app/Drivers/maxver01.avif" alt="Driver 1" class="rounded-t-lg">
+                            <div class="p-4">
+                                <h3 class="text-xl font-semibold">Max VERSTAPPAN</h3>
+                                <p>Dutch</p>
+                                <p>Wins: 103</p>
+                                <p>Podiums: 197</p>
+                                <p>Pole Positions: 104</p>
+                                <p>Fastest Laps: 65</p>
+                            </div>
+                        </div>
+                        <!-- Driver 2 -->
+                        <div class="driver-card bg-white rounded-lg shadow-md transition duration-300 transform hover:scale-105" id="card">
+                            <img src="https://gsrformula1.netlify.app/Drivers/serper01.avif" alt="Driver 2" class="rounded-t-lg">
+                            <div class="p-4">
+                                <h3 class="text-xl font-semibold">Sergio PEREZ</h3>
+                                <p>Mexico</p>
+                                <p>Wins: 1</p>
+                                <p>Podiums: 11</p>
+                                <p>Pole Positions: 1</p>
+                                <p>Fastest Laps: 6</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Team Performance -->
+        <section id="team-performance" class="py-8">
+            <h2 class="text-2xl font-semibold mb-4" style="color: yellow;">Team Performance (Last 5 Years)</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
+
+                <div class="performance-card bg-white rounded-lg shadow-md p-4" id="card">
+                    <h3 class="text-xl font-semibold">2023</h3>
+                    <p>Position: 1st</p>
+                    <p>Wins: 21</p>
+                    <p>Podiums: 30</p>
+                    <p>Poles: 14</p>
+                    <p>Fastest Laps: 11</p>
+                </div>
+
+                <div class="performance-card bg-white rounded-lg shadow-md p-4" id="card">
+                    <h3 class="text-xl font-semibold">2022</h3>
+                    <p>Position: 1st</p>
+                    <p>Wins: 17</p>
+                    <p>Podiums: 28</p>
+                    <p>Poles: 08</p>
+                    <p>Fastest Laps: 08</p>
+                </div>
+
+                <div class="performance-card bg-white rounded-lg shadow-md p-4" id="card">
+                    <h3 class="text-xl font-semibold">2021</h3>
+                    <p>Position: 2nd</p>
+                    <p>Wins: 11</p>
+                    <p>Podiums: 23</p>
+                    <p>Poles: 10</p>
+                    <p>Fastest Laps: 08</p>
+                </div>
+                <!-- Year 4 -->
+                <div class="performance-card bg-white rounded-lg shadow-md p-4" id="card">
+                    <h3 class="text-xl font-semibold">2020</h3>
+                    <p>Position: 2nd</p>
+                    <p>Wins: 2</p>
+                    <p>Podiums: 13</p>
+                    <p>Poles: 01</p>
+                    <p>Fastest Laps: 03</p>
+                </div>
+                <!-- Year 5 -->
+                <div class="performance-card bg-white rounded-lg shadow-md p-4" id="card">
+                    <h3 class="text-xl font-semibold">2019</h3>
+                    <p>Position: 3rd</p>
+                    <p>Wins: 3</p>
+                    <p>Podiums: 9</p>
+                    <p>Poles: 2</p>
+                    <p>Fastest Laps: 05</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-red-600 text-white text-center py-4" style="font-family: 'Exo 2', sans-serif;">
+        <p style="display: inline-block;">&copy; 2024 <span style="color: white;">Formula 1</span>.</p>
+        <button onclick="scrollToTop()" class="float-right" style="display: inline-block; margin: 0rem 2rem 0rem auto;">Go to Top &#8679;</button>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
